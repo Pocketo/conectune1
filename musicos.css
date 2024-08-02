@@ -1,0 +1,283 @@
+.u-section-1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url('images/dd-min.jpg');
+    min-height: 879px;
+    background-position: 50% 50%;
+  }
+  
+  .u-section-1 .u-image-1 {
+    width: 273px;
+    height: 273px;
+    margin: -35px auto 0 0;
+  }
+  
+  .u-section-1 .u-text-1 {
+    background-image: none;
+    line-height: 2.2;
+    width: 669px;
+    margin: 0 auto;
+  }
+  
+  .u-section-1 .u-text-2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 474px;
+    margin: -49px auto 0;
+  }
+  
+  .u-section-1 .u-text-3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 570px;
+    margin: 0 auto;
+  }
+  
+  .u-section-1 .u-btn-1 {
+    border-style: solid;
+    padding: 0;
+  }
+  
+  .u-section-1 .u-btn-2 {
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+    border-style: none;
+    margin: 8px auto 60px;
+    padding: 10px 52px 10px 51px;
+  }
+  
+  .u-musician-list {
+    margin: 50px 0;
+  }
+  
+  .u-musician {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .u-musician img {
+    border-radius: 50%;
+    width: 100px; /* Ajusta el tamaño del avatar */
+    height: 100px; /* Ajusta el tamaño del avatar */
+    margin-right: 20px;
+  }
+  
+  .u-musician-info {
+    flex-grow: 1;
+  }
+  
+  .u-musician-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .u-musician-info p {
+    margin: 5px 0;
+  }
+  
+  .u-social-icons {
+    display: flex;
+  }
+  
+  .u-social-icon {
+    width: 24px; /* Ajusta el tamaño según tus necesidades */
+    height: 24px; /* Ajusta el tamaño según tus necesidades */
+    display: inline-block;
+    margin: 0 5px; /* Ajusta el margen según tus necesidades */
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-1 {
+      min-height: 725px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      width: 207px;
+      height: 207px;
+      margin-right: calc(((100% - 940px) / 2)  + 237px);
+      margin-left: auto;
+    }
+  
+    .u-section-1 .u-text-1 {
+      margin-right: calc(((100% - 940px) / 2)  + 85px);
+      margin-left: calc(((100% - 940px) / 2)  + 186px);
+    }
+  
+    .u-section-1 .u-text-2 {
+      width: auto;
+      margin-right: calc(((100% - 940px) / 2)  + 318px);
+      margin-left: calc(((100% - 940px) / 2)  + 348px);
+    }
+  
+    .u-section-1 .u-text-3 {
+      width: auto;
+      margin-right: calc(((100% - 940px) / 2)  + 264px);
+      margin-left: calc(((100% - 940px) / 2)  + 306px);
+    }
+  
+    .u-section-1 .u-btn-2 {
+      width: 246px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-1 {
+      min-height: 555px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      margin-right: auto;
+      margin-left: calc(((100% - 720px) / 2)  + 162px);
+    }
+  
+    .u-section-1 .u-text-1 {
+      width: auto;
+      margin-right: calc(((100% - 720px) / 2)  + 210px);
+      margin-left: calc(((100% - 720px) / 2)  + 261px);
+    }
+  
+    .u-section-1 .u-text-2 {
+      margin-right: calc(((100% - 720px) / 2)  + 308px);
+      margin-left: calc(((100% - 720px) / 2)  + 358px);
+    }
+  
+    .u-section-1 .u-text-3 {
+      margin-right: calc(((100% - 720px) / 2)  + 260px);
+      margin-left: calc(((100% - 720px) / 2)  + 310px);
+    }
+  
+    .u-section-1 .u-btn-2 {
+      margin-bottom: 0;
+      margin-left: calc(((100% - 720px) / 2)  + 43px);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-1 {
+      min-height: 416px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      margin-right: calc(((100% - 540px) / 2)  + 33px);
+      margin-left: auto;
+    }
+  
+    .u-section-1 .u-text-1 {
+      margin-right: calc(((100% - 540px) / 2)  + -660px);
+      margin-left: calc(((100% - 540px) / 2)  + 1200px);
+    }
+  
+    .u-section-1 .u-text-2 {
+      margin-right: calc(((100% - 540px) / 2)  + -48px);
+      margin-left: calc(((100% - 540px) / 2)  + 588px);
+    }
+  
+    .u-section-1 .u-text-3 {
+      margin-right: calc(((100% - 540px) / 2)  + -10px);
+      margin-left: calc(((100% - 540px) / 2)  + 550px);
+    }
+  
+    .u-section-1 .u-btn-2 {
+      margin-left: calc(((100% - 540px) / 2));
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-1 {
+      min-height: 262px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      width: 170px;
+      height: 170px;
+      margin-right: calc(((100% - 340px) / 2)  + -230px);
+    }
+  
+    .u-section-1 .u-text-1 {
+      margin-right: calc(((100% - 340px) / 2)  + -1260px);
+      margin-left: calc(((100% - 340px) / 2)  + 1600px);
+    }
+  
+    .u-section-1 .u-text-2 {
+      margin-right: calc(((100% - 340px) / 2)  + -410px);
+      margin-left: calc(((100% - 340px) / 2)  + 750px);
+    }
+  
+    .u-section-1 .u-text-3 {
+      margin-right: calc(((100% - 340px) / 2)  + -410px);
+      margin-left: calc(((100% - 340px) / 2)  + 750px);
+    }
+  
+    .u-section-1 .u-btn-2 {
+      margin-left: calc(((100% - 340px) / 2));
+    }
+  }
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+}
+.clip {
+    margin: 10px 0;
+}
+.u-social-icon {
+    width: 40px; /* Ajusta el tamaño de los iconos aquí */
+    height: 40px;
+}
+.u-social-icon svg {
+    width: 100%;
+    height: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card-img-top {
+    width: 100%;
+    height: auto; /* Mantiene la proporción */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Asegura que el cuerpo de la tarjeta ocupe todo el espacio disponible */
+    padding: 1rem; /* Ajusta el relleno según sea necesario */
+}
+.btn-primary {
+    margin-top: auto; /* Empuja el botón hacia el final de la tarjeta */
+}
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+.clip {
+  margin: 10px 0;
+}
+.u-social-icon {
+  width: 50px; /* Ajusta el tamaño de los iconos aquí */
+  height: 50px;
+}
+.u-social-icon svg {
+  width: 100%;
+  height: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-img-top {
+  width: 100%;
+  height: auto; /* Mantiene la proporción */
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Asegura que el cuerpo de la tarjeta ocupe todo el espacio disponible */
+  padding: 1rem; /* Ajusta el relleno según sea necesario */
+}
+.btn-primary {
+  margin-top: auto; /* Empuja el botón hacia el final de la tarjeta */
+}
+  

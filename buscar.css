@@ -1,0 +1,186 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 100px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-link:hover {
+  color: #dcdcdc;
+}
+.u-align-center {
+  text-align: center;
+}
+
+/* Main Section Styling */
+.main-section {
+  position: relative; /* Needed for overlay positioning */
+  background: url('images/dd-min.jpg') no-repeat center center;
+  background-size: cover; /* Ensures the image covers the entire section */
+  min-height: 400px; /* Adjust this value to control the height of the banner */
+  padding: 100px 20px; /* Adjust padding to add space within the banner */
+  text-align: center;
+  color: #c31919; /* Text color for contrast */
+}
+
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust this for the desired intensity */
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 60px;
+  color: #ffffff; /* Ensures the title text is white for contrast */
+  position: relative; /* Position it above the overlay */
+  z-index: 2; /* Ensure the title is above the overlay */
+}
+
+.search-form {
+  display: inline-block;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px; /* Set a max-width for better control */
+  position: relative; /* Position it above the overlay */
+  z-index: 2; /* Ensure the form is above the overlay */
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #fff; /* Ensures label text color is white for contrast */
+}
+
+/* Ensuring consistent sizing for input and select elements */
+.form-select,
+.form-input {
+  box-sizing: border-box; /* Include padding and border in element's width and height */
+  width: 100%; /* Full width of the parent container */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #000; /* Set text color to black for visibility */
+}
+
+.form-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-button:hover {
+  background-color: #b30000;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  text-align: center; /* Center align text */
+  padding: 20px 0; /* Padding for top and bottom */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.footer .u-sheet {
+  max-width: 1200px; /* Optional: Adjust the max-width for better content alignment */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #fff; /* Ensure text color is white */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center social icons */
+  gap: 10px; /* Spacing between icons */
+}
+
+.social-link {
+  display: flex;
+  align-items: center; /* Vertically center icons within their container */
+}
+
+.social-link img {
+  width: 40px; /* Size of the social icons */
+  height: 40px;
+  vertical-align: middle; /* Ensure icons align properly */
+}
+
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .navbar-logo img {
+      height: 30px;
+  }
+
+  .navbar-item {
+      margin-left: 10px;
+  }
+
+  .navbar-link {
+      font-size: 14px;
+  }
+
+  .main-title {
+      font-size: 1.5rem;
+  }
+
+  .form-button {
+      font-size: 0.9rem;
+  }
+}
